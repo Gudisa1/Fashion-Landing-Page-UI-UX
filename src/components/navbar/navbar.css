@@ -1,0 +1,70 @@
+/* Layout */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3em;
+  margin-top: 0;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  list-style: none;
+  margin-left: 0;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+/* Child Styles */
+/* Logo and Logo text Styles */
+.company-logo {
+  box-sizing: border-box;
+  width: 43px;
+  height: 34px;
+  background-color: #589195;
+  border: 1px #1b2858;
+  border-radius: 10px;
+}
+.logo-text {
+  margin-left: 0.4em;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Cormorant" sans-serif;
+  color: #589195;
+  margin-top: 0;
+}
+
+/* Navigation Links Styles */
+
+.link a {
+  font-family: "Work Sans" sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #6a7087;
+  text-decoration: none;
+}
+
+/* ICONS STYLE */
+.icon {
+  width: 26px;
+  height: 22px;
+  color: #1b2858;
+  margin-top: 1em;
+  margin-right: 2.5em;
+}
+/* Horizontal line */
+
+.hr {
+  color: #84babe;
+  border: 0.008px solid #84babe;
+  width: 100%;
+  margin-top: 0;
+}

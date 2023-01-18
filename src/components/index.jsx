@@ -1,0 +1,9 @@
+export { default as Category } from "./category/Category";
+export { default as Facility } from "./facility/Facility";
+export { default as Feature } from "./feature/Feature";
+export { default as Footer } from "./footer/Footer";
+export { default as Hero } from "./hero/Hero";
+export { default as Latest } from "./latest/Latest";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Products } from "./products/Products";
+export { default as Testimony } from "./testimony/Testimony";
