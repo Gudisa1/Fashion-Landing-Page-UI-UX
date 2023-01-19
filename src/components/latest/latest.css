@@ -1,0 +1,114 @@
+.latest {
+  background-color: #fff;
+}
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16em;
+}
+.latest-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.latest-product {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CHILD STYLES */
+.latest-heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+
+  /* or 120% */
+
+  color: #34394c;
+}
+.latest-paragraph {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+
+  /* or 156% */
+  color: #707686;
+}
+.latest-reveiew {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+
+  /* or 156% */
+
+  color: #707686;
+}
+.review-par {
+  margin-bottom: -1.5em;
+}
+.latest-heading-four {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #34394c;
+  margin-bottom: -0.5em;
+}
+.current-price {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+
+  color: #297176;
+}
+.img-container {
+  position: relative;
+}
+.img-product {
+  width: 255px;
+  height: 330px;
+  border-radius: 4px;
+  color: #f7f8fc;
+}
+.top {
+  position: absolute;
+  width: 35px;
+  height: 22px;
+  left: 0px;
+  top: -12px;
+  font-family: "Outfit" sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: #31797e;
+  color: #fff;
+  border-radius: 2px;
+  /* or 208% */
+
+  /* /* display: flex; */
+  align-items: center;
+  text-align: center;
+}
+.sale {
+  position: absolute;
+  width: 35px;
+  height: 22px;
+  left: 220px;
+  top: -12px;
+  font-family: "Outfit" sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: #f04726;
+  color: #fff;
+  border-radius: 2px;
+  /* or 208% */
+
+  /* /* display: flex; */
+  align-items: center;
+  text-align: center;
+}
