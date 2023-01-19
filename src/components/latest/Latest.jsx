@@ -25,7 +25,7 @@ function Latest() {
               ⭐⭐⭐⭐⭐ <span className="latest-review">4 Reviews</span>
             </p>
 
-            <h4 className="latest-heading-four">Ladies yellow top</h4>
+            <h4 className="latest-heading-four">Boys white Top</h4>
 
             <p className="current-price">$25</p>
           </div>
@@ -39,7 +39,7 @@ function Latest() {
               ⭐⭐⭐⭐⭐ <span className="latest-review">4 Reviews</span>
             </p>
 
-            <h4 className="latest-heading-four">Ladies yellow top</h4>
+            <h4 className="latest-heading-four">Boys white Top</h4>
 
             <p className="current-price">$25</p>
           </div>
@@ -53,7 +53,7 @@ function Latest() {
               ⭐⭐⭐⭐⭐ <span className="latest-review">4 Reviews</span>
             </p>
 
-            <h4 className="latest-heading-four">Ladies yellow top</h4>
+            <h4 className="latest-heading-four">Boys white Top</h4>
 
             <p className="current-price">$25</p>
           </div>
@@ -67,7 +67,7 @@ function Latest() {
               ⭐⭐⭐⭐⭐ <span className="latest-review">4 Reviews</span>
             </p>
 
-            <h4 className="latest-heading-four">Ladies yellow top</h4>
+            <h4 className="latest-heading-four">Ladies White top</h4>
 
             <p className="current-price">$25</p>
           </div>

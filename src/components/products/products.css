@@ -1,0 +1,61 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  background-color: #fff;
+}
+.products-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16em;
+}
+.latest-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.latest-product {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+.products-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 4em;
+}
+.products-category {
+  display: flex;
+  flex-direction: row;
+  gap: 6em;
+  margin-bottom: 1em;
+  margin-top: 5em;
+}
+.products-text-description {
+  margin-bottom: 2em;
+}
+.products-heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+
+  color: #34394c;
+}
+.products-paragraph {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-top: -2em;
+
+  color: #707686;
+}
+.products-category-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  color: #34394c;
+}
