@@ -7,20 +7,23 @@
 .logo {
   display: flex;
   flex-direction: row;
-  margin-left: 3em;
-  margin-top: 0;
+  margin-left: 15em;
+  margin-top: 2.5em;
 }
 .links {
   display: flex;
   flex-direction: row;
   gap: 5em;
   list-style: none;
-  margin-left: 0;
+  margin-left: 2em;
+  margin-top: 3em;
 }
 .icons {
   display: flex;
   flex-direction: row;
   gap: 2em;
+  margin-top: 2em;
+  margin-right: 2em;
 }
 
 /* Child Styles */

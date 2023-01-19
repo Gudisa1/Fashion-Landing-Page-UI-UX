@@ -1,0 +1,44 @@
+/* Layout */
+section {
+  background-color: #fff;
+  display: grid;
+  justify-content: center;
+}
+.facility-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* margin-top: 5em; */
+  width: 1110px;
+  justify-content: center;
+}
+.facility {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
+/* CHILD STYLES */
+.facility-icon {
+  color: #589195;
+  width: 89px;
+  height: 41.5px;
+  margin-bottom: -1em;
+  margin-left: -2em;
+}
+.facility-heading {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #34394c;
+  margin-bottom: -0.3em;
+}
+.facility-paragraph {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #7f8698;
+}
