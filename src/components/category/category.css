@@ -1,0 +1,67 @@
+/* Layout */
+.category {
+  background-color: #fff;
+  /* border-radius: 8px; */
+}
+.category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  margin-left: 15em;
+  margin-right: 4em;
+  border-radius: 48px;
+  margin-bottom: 4em;
+}
+
+.category-container1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9e6f0;
+}
+
+.category-img {
+  width: 353px;
+  height: 303px;
+  border-radius: 8px;
+}
+
+/* Speciif Styles */
+
+.category-discount {
+  font-family: "Outfit" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+
+  /* or 429% */
+
+  color: #589195;
+  margin-bottom: -0.8em;
+}
+.category-container-text {
+  margin-top: 6em;
+  margin-left: 2em;
+  /* margin-right: 0.2em; */
+  border-radius: 8px;
+}
+.category-description {
+  font-family: "Outfit" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: -0.7em;
+  color: #34394c;
+}
+.category-cta {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.12rem;
+
+  /* identical to box height, or 156% */
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
