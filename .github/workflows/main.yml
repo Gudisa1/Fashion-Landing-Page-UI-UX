@@ -1,0 +1,63 @@
+name: Build and Test Vite React App
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build with Vite
+        run: npm run build  # Adjust the npm script accordingly
+
+      - name: Test
+        run: npm test
+
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ failure() }}
+
+    steps:
+      - name: Create GitHub issue on failure
+        uses: actions/create-issue@v2
+        with:
+          title: "Build Failure Notification"
+          body: |
+            The GitHub Actions workflow for the Vite React App failed.
+
+            Contributor, the build has failed, and it seems there is a bug. Please investigate and fix the issue.
+
+            Please check the build logs for details.
+
+          labels: bug
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN}}
+          publish_dir: ./dist  # Adjust the directory where your build artifacts are located
+
+        # Add a step to echo the success message
+      - name: Echo Success Message
+        if: success()
+        run: |
+          echo "Deployment to GitHub Pages was successful!"
+          echo "GitHub Pages URL: https://${{ github.actor }}.github.io/${{ github.repository }}"
